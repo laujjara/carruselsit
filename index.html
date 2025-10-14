@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carrusel de Indicadores</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="indicator-carousel">
+    <!-- Botones de navegación -->
+    <button id="prevBtn" class="carousel-btn prev-btn" aria-label="Anterior">❮</button>
+    <button id="nextBtn" class="carousel-btn next-btn" aria-label="Siguiente">❯</button>
+
+    <!-- Ventana del carrusel -->
+    <div class="carousel-viewport">
+      <!-- El slider se llena dinámicamente con tarjetas desde ArcGIS -->
+      <div id="indicator-slider" class="carousel-slider"></div>
+    </div>
+  </section>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
